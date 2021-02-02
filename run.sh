@@ -1,1 +1,1 @@
-docker run -v ${PWD}/.:/output --rm -it node /bin/bash
+docker run -p 5000:5000 -v ${PWD}/.:/output --rm -it node /bin/bash
